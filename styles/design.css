@@ -210,6 +210,13 @@ h4 {
     align-items: center;
 }
 
+.email {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    padding-left: 320px;
+}
+
 .subscribe-title {
     color: #070211;
     text-align: center;
@@ -258,4 +265,64 @@ h4 {
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
+}
+
+/*Footer styles*/
+footer {
+    width: 1600px;
+    height: 609px;
+    flex-shrink: 0;
+    background: #070211;
+    margin-left: 0;
+    align-items: center;
+    padding: 120px 140px;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+
+.address {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    
+}
+
+.contact {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    
+}
+
+.socilal-links a{
+   margin-right: 24px;
+}
+.socilal-links{
+    padding: 20px 600px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    
+}
+.unsub {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    
 }
