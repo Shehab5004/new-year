@@ -202,6 +202,14 @@ h4 {
     align-items: center;
 }
 
+.gift-image {
+    width: 424px;
+    height: 450px;
+    flex-shrink: 0;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
 .subscribe {
     padding: 80px 212px;
     border-radius: 16px;
@@ -277,7 +285,8 @@ footer {
     align-items: center;
     padding: 120px 140px;
 }
-.first{
+
+.first {
     display: flex;
     justify-content: space-between;
 }
@@ -288,7 +297,7 @@ footer {
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
-    
+
 }
 
 .contact {
@@ -297,32 +306,36 @@ footer {
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
-    
+
 }
 
-.socilal-links a{
-   margin-right: 24px;
+.socilal-links a {
+    margin-right: 24px;
 }
-.socilal-links{
+
+.socilal-links {
     padding: 20px 600px;
 }
-.last{
+
+.last {
     display: flex;
     justify-content: space-between;
 }
+
 .copyright {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
-    
+
 }
+
 .unsub {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
-    
+
 }
